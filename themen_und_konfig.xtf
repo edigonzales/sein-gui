@@ -1,0 +1,1514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TRANSFER xmlns="http://www.interlis.ch/INTERLIS2.3">
+  <HEADERSECTION SENDER="ili2duckdb-5.2.2-SNAPSHOT-4d47dd476faf576bc56fa9143f49f62996471a9a" VERSION="2.3">
+    <MODELS>
+      <MODEL NAME="SO_ARP_SEin_Konfiguration_20241227" VERSION="2024-12-27" URI="https://arp.so.ch"/>
+    </MODELS>
+  </HEADERSECTION>
+  <DATASECTION>
+    <SO_ARP_SEin_Konfiguration_20241227.SEin BID="SO_ARP_SEin_Konfiguration_20241227.SEin">
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gruppe TID="3">
+        <Name>Bundesinventar</Name>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gruppe>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema TID="4">
+        <Name>Amphibienlaichgebiete von nationaler Bedeutung - Ortsfeste Objekte</Name>
+        <Karte>ch.bafu.bundesinventare-amphibien</Karte>
+        <Gruppe_R REF="3"/>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema TID="5">
+        <Name>Amphibienlaichgebiete von nationaler Bedeutung - Wanderobjekte</Name>
+        <Karte>ch.bafu.bundesinventare-amphibien_wanderobjekte</Karte>
+        <Gruppe_R REF="3"/>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema TID="6">
+        <Name>Schützenswerte Ortsbilder der Schweiz von nationaler Bedeutung (ISOS)</Name>
+        <Karte>ch.bak.bundesinventar-schuetzenswerte-ortsbilder</Karte>
+        <Gruppe_R REF="3"/>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="30">
+        <Name>Egerkingen</Name>
+        <BFSNr>2401</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="33">
+        <Name>Härkingen</Name>
+        <BFSNr>2402</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="36">
+        <Name>Kestenholz</Name>
+        <BFSNr>2403</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="39">
+        <Name>Neuendorf</Name>
+        <BFSNr>2404</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="42">
+        <Name>Niederbuchsiten</Name>
+        <BFSNr>2405</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="45">
+        <Name>Oberbuchsiten</Name>
+        <BFSNr>2406</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="48">
+        <Name>Oensingen</Name>
+        <BFSNr>2407</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="51">
+        <Name>Wolfwil</Name>
+        <BFSNr>2408</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="54">
+        <Name>Aedermannsdorf</Name>
+        <BFSNr>2421</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="57">
+        <Name>Balsthal</Name>
+        <BFSNr>2422</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="60">
+        <Name>Herbetswil</Name>
+        <BFSNr>2424</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="63">
+        <Name>Holderbank (SO)</Name>
+        <BFSNr>2425</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="66">
+        <Name>Laupersdorf</Name>
+        <BFSNr>2426</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="69">
+        <Name>Matzendorf</Name>
+        <BFSNr>2427</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="72">
+        <Name>Mümliswil-Ramiswil</Name>
+        <BFSNr>2428</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="75">
+        <Name>Welschenrohr-Gänsbrunnen</Name>
+        <BFSNr>2430</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="78">
+        <Name>Biezwil</Name>
+        <BFSNr>2445</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="81">
+        <Name>Lüterkofen-Ichertswil</Name>
+        <BFSNr>2455</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="84">
+        <Name>Messen</Name>
+        <BFSNr>2457</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="87">
+        <Name>Schnottwil</Name>
+        <BFSNr>2461</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="90">
+        <Name>Unterramsern</Name>
+        <BFSNr>2463</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="93">
+        <Name>Lüsslingen-Nennigkofen</Name>
+        <BFSNr>2464</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="96">
+        <Name>Buchegg</Name>
+        <BFSNr>2465</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="99">
+        <Name>Bättwil</Name>
+        <BFSNr>2471</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="102">
+        <Name>Büren (SO)</Name>
+        <BFSNr>2472</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="105">
+        <Name>Dornach</Name>
+        <BFSNr>2473</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="108">
+        <Name>Gempen</Name>
+        <BFSNr>2474</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="111">
+        <Name>Hochwald</Name>
+        <BFSNr>2475</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="114">
+        <Name>Hofstetten-Flüh</Name>
+        <BFSNr>2476</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="117">
+        <Name>Metzerlen-Mariastein</Name>
+        <BFSNr>2477</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="120">
+        <Name>Nuglar-St. Pantaleon</Name>
+        <BFSNr>2478</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="123">
+        <Name>Rodersdorf</Name>
+        <BFSNr>2479</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="126">
+        <Name>Seewen</Name>
+        <BFSNr>2480</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="129">
+        <Name>Witterswil</Name>
+        <BFSNr>2481</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="132">
+        <Name>Hauenstein-Ifenthal</Name>
+        <BFSNr>2491</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="135">
+        <Name>Kienberg</Name>
+        <BFSNr>2492</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="138">
+        <Name>Lostorf</Name>
+        <BFSNr>2493</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="141">
+        <Name>Niedergösgen</Name>
+        <BFSNr>2495</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="144">
+        <Name>Obergösgen</Name>
+        <BFSNr>2497</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="147">
+        <Name>Stüsslingen</Name>
+        <BFSNr>2499</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="150">
+        <Name>Trimbach</Name>
+        <BFSNr>2500</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="153">
+        <Name>Winznau</Name>
+        <BFSNr>2501</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="156">
+        <Name>Wisen (SO)</Name>
+        <BFSNr>2502</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="159">
+        <Name>Erlinsbach (SO)</Name>
+        <BFSNr>2503</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="162">
+        <Name>Aeschi (SO)</Name>
+        <BFSNr>2511</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="165">
+        <Name>Biberist</Name>
+        <BFSNr>2513</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="168">
+        <Name>Bolken</Name>
+        <BFSNr>2514</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="171">
+        <Name>Deitingen</Name>
+        <BFSNr>2516</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="174">
+        <Name>Derendingen</Name>
+        <BFSNr>2517</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="177">
+        <Name>Etziken</Name>
+        <BFSNr>2518</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="180">
+        <Name>Gerlafingen</Name>
+        <BFSNr>2519</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="183">
+        <Name>Halten</Name>
+        <BFSNr>2520</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="186">
+        <Name>Horriwil</Name>
+        <BFSNr>2523</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="189">
+        <Name>Hüniken</Name>
+        <BFSNr>2524</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="192">
+        <Name>Kriegstetten</Name>
+        <BFSNr>2525</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="195">
+        <Name>Lohn-Ammannsegg</Name>
+        <BFSNr>2526</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="198">
+        <Name>Luterbach</Name>
+        <BFSNr>2527</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="201">
+        <Name>Obergerlafingen</Name>
+        <BFSNr>2528</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="204">
+        <Name>Oekingen</Name>
+        <BFSNr>2529</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="207">
+        <Name>Recherswil</Name>
+        <BFSNr>2530</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="210">
+        <Name>Subingen</Name>
+        <BFSNr>2532</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="213">
+        <Name>Zuchwil</Name>
+        <BFSNr>2534</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="216">
+        <Name>Drei Höfe</Name>
+        <BFSNr>2535</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="219">
+        <Name>Balm bei Günsberg</Name>
+        <BFSNr>2541</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="222">
+        <Name>Bellach</Name>
+        <BFSNr>2542</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="225">
+        <Name>Bettlach</Name>
+        <BFSNr>2543</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="228">
+        <Name>Feldbrunnen-St. Niklaus</Name>
+        <BFSNr>2544</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="231">
+        <Name>Flumenthal</Name>
+        <BFSNr>2545</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="234">
+        <Name>Grenchen</Name>
+        <BFSNr>2546</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="237">
+        <Name>Günsberg</Name>
+        <BFSNr>2547</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="240">
+        <Name>Hubersdorf</Name>
+        <BFSNr>2548</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="243">
+        <Name>Kammersrohr</Name>
+        <BFSNr>2549</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="246">
+        <Name>Langendorf</Name>
+        <BFSNr>2550</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="249">
+        <Name>Lommiswil</Name>
+        <BFSNr>2551</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="252">
+        <Name>Oberdorf (SO)</Name>
+        <BFSNr>2553</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="255">
+        <Name>Riedholz</Name>
+        <BFSNr>2554</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="258">
+        <Name>Rüttenen</Name>
+        <BFSNr>2555</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="261">
+        <Name>Selzach</Name>
+        <BFSNr>2556</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="264">
+        <Name>Boningen</Name>
+        <BFSNr>2571</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="267">
+        <Name>Däniken</Name>
+        <BFSNr>2572</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="270">
+        <Name>Dulliken</Name>
+        <BFSNr>2573</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="273">
+        <Name>Eppenberg-Wöschnau</Name>
+        <BFSNr>2574</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="276">
+        <Name>Fulenbach</Name>
+        <BFSNr>2575</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="279">
+        <Name>Gretzenbach</Name>
+        <BFSNr>2576</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="282">
+        <Name>Gunzgen</Name>
+        <BFSNr>2578</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="285">
+        <Name>Hägendorf</Name>
+        <BFSNr>2579</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="288">
+        <Name>Kappel (SO)</Name>
+        <BFSNr>2580</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="291">
+        <Name>Olten</Name>
+        <BFSNr>2581</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="294">
+        <Name>Rickenbach (SO)</Name>
+        <BFSNr>2582</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="297">
+        <Name>Schönenwerd</Name>
+        <BFSNr>2583</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="300">
+        <Name>Starrkirch-Wil</Name>
+        <BFSNr>2584</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="303">
+        <Name>Walterswil (SO)</Name>
+        <BFSNr>2585</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="306">
+        <Name>Wangen bei Olten</Name>
+        <BFSNr>2586</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="309">
+        <Name>Solothurn</Name>
+        <BFSNr>2601</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="312">
+        <Name>Bärschwil</Name>
+        <BFSNr>2611</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="315">
+        <Name>Beinwil (SO)</Name>
+        <BFSNr>2612</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="318">
+        <Name>Breitenbach</Name>
+        <BFSNr>2613</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="321">
+        <Name>Büsserach</Name>
+        <BFSNr>2614</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="324">
+        <Name>Erschwil</Name>
+        <BFSNr>2615</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="327">
+        <Name>Fehren</Name>
+        <BFSNr>2616</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="330">
+        <Name>Grindel</Name>
+        <BFSNr>2617</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="333">
+        <Name>Himmelried</Name>
+        <BFSNr>2618</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="336">
+        <Name>Kleinlützel</Name>
+        <BFSNr>2619</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="339">
+        <Name>Meltingen</Name>
+        <BFSNr>2620</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="342">
+        <Name>Nunningen</Name>
+        <BFSNr>2621</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde TID="345">
+        <Name>Zullwil</Name>
+        <BFSNr>2622</BFSNr>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="30"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="30"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="33"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="33"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="36"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="36"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="39"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="39"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="42"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="42"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="45"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="45"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="48"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="48"/>
+        <ist_betroffen>true</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="51"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="51"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="54"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="54"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="57"/>
+        <ist_betroffen>true</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="57"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="60"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="60"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="63"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="63"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="66"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="66"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="69"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="69"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="72"/>
+        <ist_betroffen>true</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="72"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="75"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="75"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="78"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="78"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="81"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="81"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="84"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="84"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="87"/>
+        <ist_betroffen>true</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="87"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="90"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="90"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="93"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="93"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="96"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="96"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="99"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="99"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="102"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="102"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="105"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="105"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="108"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="108"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="111"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="111"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="114"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="114"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="117"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="117"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="120"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="120"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="123"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="123"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="126"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="126"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="129"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="129"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="132"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="132"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="135"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="135"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="138"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="138"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="141"/>
+        <ist_betroffen>true</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="141"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="144"/>
+        <ist_betroffen>true</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="144"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="147"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="147"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="150"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="150"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="153"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="153"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="156"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="156"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="159"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="159"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="162"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="162"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="165"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="165"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="168"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="168"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="171"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="171"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="174"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="174"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="177"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="177"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="180"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="180"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="183"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="183"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="186"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="186"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="189"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="189"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="192"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="192"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="195"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="195"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="198"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="198"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="201"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="201"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="204"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="204"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="207"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="207"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="210"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="210"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="213"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="213"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="216"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="216"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="219"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="219"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="222"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="222"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="225"/>
+        <ist_betroffen>true</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="225"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="228"/>
+        <ist_betroffen>true</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="228"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="231"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="231"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="234"/>
+        <ist_betroffen>true</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="234"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="237"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="237"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="240"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="240"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="243"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="243"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="246"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="246"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="249"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="249"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="252"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="252"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="255"/>
+        <ist_betroffen>true</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="255"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="258"/>
+        <ist_betroffen>true</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="258"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="261"/>
+        <ist_betroffen>true</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="261"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="264"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="264"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="267"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="267"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="270"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="270"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="273"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="273"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="276"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="276"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="279"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="279"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="282"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="282"/>
+        <ist_betroffen>true</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="285"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="285"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="288"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="288"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="291"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="291"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="294"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="294"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="297"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="297"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="300"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="300"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="303"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="303"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="306"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="306"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="309"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="309"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="312"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="312"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="315"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="315"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="318"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="318"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="321"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="321"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="324"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="324"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="327"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="327"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="330"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="330"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="333"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="333"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="336"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="336"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="339"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="339"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="342"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="342"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="4"/>
+        <Gemeinde_R REF="345"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+      <SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+        <Thema_R REF="5"/>
+        <Gemeinde_R REF="345"/>
+        <ist_betroffen>false</ist_betroffen>
+      </SO_ARP_SEin_Konfiguration_20241227.SEin.Thema_Gemeinde>
+    </SO_ARP_SEin_Konfiguration_20241227.SEin>
+  </DATASECTION>
+</TRANSFER>

@@ -1,0 +1,48 @@
+INTERLIS 2.3;
+
+/** !!------------------------------------------------------------------------------
+ *  !! Version    | wer | Änderung
+ *  !!------------------------------------------------------------------------------
+ *  !! 2024-12-27 | sz  | Initialerstellung
+ *  !!==============================================================================
+ */
+!!@ technicalContact=mailto:agi@bd.so.ch
+!!@ furtherInformation=https://geo.so.ch/models/ARP/SO_ARP_SEin_Konfiguration_20241227.uml
+!!@ shortDescription="Datenmodell für die (Teil-)Konfiguration der SEin-App"
+!!@ title="SEin-App Konfiguration"
+MODEL SO_ARP_SEin_Konfiguration_20241227 (de)
+AT "https://arp.so.ch"
+VERSION "2024-12-27"  =
+
+  TOPIC SEin =
+
+    CLASS Gruppe =
+      Name : MANDATORY TEXT*500;
+    END Gruppe;
+
+    CLASS Thema = 
+      Name : MANDATORY TEXT*500;
+      Karte : TEXT*500; !! nur layer id? Wenn Absprung, müssen wir sie ja bei uns haben.
+      !! Transparenz
+    END Thema;
+
+    CLASS Gemeinde =
+      Name : MANDATORY TEXT*200;
+      BFSNr : MANDATORY 2000 .. 3000;
+      UNIQUE BFSNr;
+    END Gemeinde;
+
+    ASSOCIATION Gruppe_Thema =
+      Gruppe_R -- {1} Gruppe;
+      Thema_R -- {0..*} Thema;
+    END Gruppe_Thema;
+
+    ASSOCIATION Thema_Gemeinde =
+      Thema_R -- {0..*} Thema;
+      Gemeinde_R -- {0..*} Gemeinde;
+      ist_betroffen : BOOLEAN;
+    END Thema_Gemeinde;
+
+  END SEin;
+
+END SO_ARP_SEin_Konfiguration_20241227.

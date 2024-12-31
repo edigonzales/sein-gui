@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TRANSFER xmlns="http://www.interlis.ch/INTERLIS2.3">
+  <HEADERSECTION SENDER="ili2duckdb-5.2.2-SNAPSHOT-4d47dd476faf576bc56fa9143f49f62996471a9a" VERSION="2.3">
+    <MODELS>
+      <MODEL NAME="SO_ARP_SEin_Konfiguration_20241217" VERSION="2024-12-27" URI="https://arp.so.ch"/>
+    </MODELS>
+  </HEADERSECTION>
+  <DATASECTION>
+    <SO_ARP_SEin_Konfiguration_20241217.SEin BID="SO_ARP_SEin_Konfiguration_20241217.SEin">
+      <SO_ARP_SEin_Konfiguration_20241217.SEin.Gruppe TID="1">
+        <Name>Bundesinventar</Name>
+      </SO_ARP_SEin_Konfiguration_20241217.SEin.Gruppe>
+      <SO_ARP_SEin_Konfiguration_20241217.SEin.Thema TID="2">
+        <Name>Amphibienlaichgebiete von nationaler Bedeutung - Ortsfeste Objekte</Name>
+        <Karte>ch.bafu.bundesinventare-amphibien</Karte>
+        <Gruppe_R REF="1"/>
+      </SO_ARP_SEin_Konfiguration_20241217.SEin.Thema>
+      <SO_ARP_SEin_Konfiguration_20241217.SEin.Thema TID="3">
+        <Name>Amphibienlaichgebiete von nationaler Bedeutung - Wanderobjekte</Name>
+        <Karte>ch.bafu.bundesinventare-amphibien_wanderobjekte</Karte>
+        <Gruppe_R REF="1"/>
+      </SO_ARP_SEin_Konfiguration_20241217.SEin.Thema>
+      <SO_ARP_SEin_Konfiguration_20241217.SEin.Thema TID="4">
+        <Name>Schützenswerte Ortsbilder der Schweiz von nationaler Bedeutung (ISOS)</Name>
+        <Karte>ch.bak.bundesinventar-schuetzenswerte-ortsbilder</Karte>
+        <Gruppe_R REF="1"/>
+      </SO_ARP_SEin_Konfiguration_20241217.SEin.Thema>
+    </SO_ARP_SEin_Konfiguration_20241217.SEin>
+  </DATASECTION>
+</TRANSFER>
