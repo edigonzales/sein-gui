@@ -9,7 +9,7 @@ source .venv/bin/activate
 ```
 
 ```
-pip install streamlit
+pip install streamlit streamlit-folium
 ```
 
 ```
